@@ -85,34 +85,51 @@ const Home = () => {
       </section>
 
       <section className="Delivery_container">
-        <h1>We Serve You The Best Product At Best Prices</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-          voluptatem minus officia quas reiciendis excepturi nostrum esse itaque
-          nesciunt.
-        </p>
+        <div className="Delivery_title">
+          <h1>We Serve You The Best Product At Best Prices</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            voluptatem minus officia quas reiciendis excepturi nostrum esse
+            itaque nesciunt.
+          </p>
+        </div>
         <div className="Delivery_card">
           <div className="deliver">
             <img src={require("../IMAGES/delivery.png")} alt="" />
             <h3>Free Shipping</h3>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
+          <span className="line">
+            <hr></hr>
+          </span>
           <div className="deliver">
             <img src={require("../IMAGES/credit-card(1).png")} alt="" />
             <h3>Secured Payment</h3>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
+          <span className="line">
+            <hr></hr>
+          </span>
           <div className="deliver">
             <img src={require("../IMAGES/24-hours-support.png")} alt="" />
             <h3>24/7 Online Support</h3>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
+          <span className="line">
+            <hr></hr>
+          </span>
           <div className="deliver">
             <img src={require("../IMAGES/exchange.png")} alt="" />
             <h3>Free Returns</h3>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
+      </section>
+
+      <section className="Support">
+        <img src={require("../IMAGES/customer-support(1).png")} alt="" />
+        <h2>Visit our Support Center</h2>
+        <button>Visit</button>
       </section>
     </div>
   );

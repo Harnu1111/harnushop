@@ -452,3 +452,79 @@ section{
 .active-content{
   transition: 3s ease-in-out;
 }
+
+/****** Delivery Card ******/
+.Delivery_container{
+  margin: 3em;
+}
+
+.Delivery_title h1{
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+.Delivery_title p{
+  font-size: 15px;
+  font-weight: 500;
+  width: 50em;
+}
+
+.Delivery_card{
+display: flex;
+ position: relative;
+ padding: 1em 2em ;
+}
+
+.Delivery_card img{
+  max-width: 3em;
+  padding-bottom: 3px;
+}
+
+.deliver{
+ text-align: center;
+ 
+padding: 3em 5em;
+}
+.deliver h3{
+  padding: 0.3em 0;
+}
+.deliver p{
+font-size: 13px;
+
+}
+.line hr{
+  height: 8.5em;
+  position: absolute;
+ top: 3em;
+ border: 1px solid rgba(137, 142, 142, 0.367) ;
+}
+
+/******** Support ******/
+.Support{
+  background-color: black;
+  color: #fff;
+  display: flex;
+  margin: 3em;
+  height: 15em;
+  align-items: center;
+  position: relative;
+  border-radius: 5px;
+}
+
+.Support img{
+  max-width: 3em;
+  padding: 1em;
+}
+.Support button{
+  position: absolute;
+  right: 0;
+  padding: 5px;
+  width: 10em;
+  height: 3.2em;
+  margin: 2em;
+  background-color: transparent;
+  border: rgb(87, 157, 210) 2px solid;
+  border-radius: 5px;
+  color:rgb(87, 157, 210);
+  font-size: 1em;
+  cursor: pointer;
+}
