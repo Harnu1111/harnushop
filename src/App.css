@@ -500,14 +500,16 @@ font-size: 13px;
 
 /******** Support ******/
 .Support{
+
   background-color: black;
   color: #fff;
   display: flex;
   margin: 3em;
-  height: 15em;
+  height: 10.5em;
   align-items: center;
   position: relative;
   border-radius: 5px;
+  margin-top: 4em;
 }
 
 .Support img{
